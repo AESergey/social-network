@@ -1,0 +1,36 @@
+.profileInfo {
+    display: grid;
+    grid-template-areas: "avatar description";
+    grid-template-columns: 1fr 2fr;
+}
+
+.avatar {
+    padding: 50px auto 0 auto;
+    grid-area: avatar;
+}
+
+img {
+    width: 70%;
+}
+
+.descriptionBlock {
+    grid-area: description;
+    padding: 10px;
+    ;
+}
+
+table {
+    min-width: 400px;
+}
+
+.descriptionBlock td {
+    border-top: 1px solid #E5E5E5;
+}
+
+.descriptionBlock .firstTd {
+    text-align: left;
+}
+
+.descriptionBlock .secondTd {
+    text-align: right;
+}
